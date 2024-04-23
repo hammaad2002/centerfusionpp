@@ -1,0 +1,10 @@
+onnx==1.16.0
+onnxruntime==1.17.3
+deform_conv2d_onnx_exporter==1.2.0
+torch==2.2.2
+tkinter 
+matplotlib
+nuscenes-devkit
+zmq
+pyparsing==3.1.2 # this version is must and old 2.4.7 will not work which comes with linux
+numba
