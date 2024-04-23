@@ -203,7 +203,7 @@ class BaseModel(nn.Module):
 
     else:    
       # Input to backbone is RGB image
-      x = batch['image']
+      x = batch
 
     ## extract features from image through backbone + neck (upsampled to 200x112 by default)
     feats = self.img2feats(x)
